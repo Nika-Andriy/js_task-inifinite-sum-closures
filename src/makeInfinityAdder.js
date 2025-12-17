@@ -3,7 +3,7 @@
 /***
  * @return {function}
  */
-function makeInfinityAdder() {
+function makeAdder() {
   let sum = 0;
 
   const addNumber = (num) => {
@@ -23,4 +23,4 @@ function makeInfinityAdder() {
   return addNumber;
 }
 
-module.exports = makeInfinityAdder;
+module.exports = makeAdder;
